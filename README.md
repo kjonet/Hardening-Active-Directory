@@ -54,5 +54,17 @@ It's important to implement strong password policies to uphold proper authentica
 
 Implementing multi-factor authentication is a great way to enable proper authentication and authorization of an organization's users. Multi-factor can come in all sorts of varieties as well. It can be location-based, meaning, users can only authenticate from a certain IP address. It can be based on a push notification sent by an authentication app in addition to having a username and password or it can be token-based, meaning every time a user signs it, it must use a one-time generated password. 
 
-# Least Privlage 
+# Least Privilege 
+
+When it comes to assigning roles within your organization, enforcing the principle of Least privilege is crucial to ensure only specific users have access to the appropriate resources needed to complete their tasks in their roles. This principle helps to reduce possible risks and improves an organization's security posture. 
+
+<b>Examples: </b>
+
+- File sharing: Katie, who works in marketing, needs to access a file from the accounting share, however, due to her role in the organization, she is unable to access the mapped drive that only users in the accounting department have access to.
+- User Account Permissions: Tom is working on a proposal for his department's budget but wants to use a software called, Grammarly, to help him improve his sentence structure. When he goes to download it, he is unable to. He will need to reach out to certain users in his organization (most likely the sys admin or tier 1-3 help desk employees) who have authorization and can download the tool he needs.
+- Database Access Control: Mary, who works in the creative department, is curious about learning SQL in her downtime and decides to open and play around with Microsoft Management Studio during her downtime. The software is already installed on her desktop but when she goes to look through the databases, she is not able to. Databases house sensitive information and because Mary's role does not require her to deal with sensitive information, her access to the company databases is restricted. 
+
+As a systems administrator, the right accounts must be properly set up and given the appropriate permissions. Conducting an audit for accounts regularly is also crucial in making sure all accounts have the right access permissions. 
+
+
 
