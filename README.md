@@ -11,7 +11,7 @@ I will be hardening Active Director on a domain controller I have set up on a vi
 - Secure authentication methods
 - Host security using group policy
 - Implementing Least Privilege
-- Knowing common Active Directory attacks
+- How To Prevent Unauthorized RDP Access
 - Configuring a Microsoft compliance toolkit
 - Recovery Plans
 
@@ -67,11 +67,30 @@ When it comes to assigning roles within your organization, enforcing the princip
 
 As a systems administrator, the right accounts must be properly set up and given the appropriate permissions. Conducting an audit for accounts regularly is also crucial in making sure all accounts have the right access permissions. 
 
+# Preventing Unauthorized RDP access
+
+RDP is prone to brute-force attacks and without the proper security implementations, malicious attackers could remote into an organization's system leaving it prone to data loss and worse. 
+
+Here are some recommendations that could help prevent this: 
+
+- Whitelisting Source IP Addresses: This will allow authorized users to access the protocol if needed while preventing IP addresses that are not whitelisted, from gaining access.
+- VPN Configuration: When using RDP, enforcing a virtual private network will provide a safe and encrypted tunnel for users to connect securely.
+- Log Monitoring: Actively monitoring network logs will help to spot malicious attackers attempting to gain access before it escalates.
+- Network Segmentation: Segmenting parts of your network can help minimize unauthorized access. 
+
+
 # Microsoft Security Compliance Toolkit (MSCT)  
 
 To help give organizations an idea of how their domain-level policies should look, Microsoft created a tool called Microsoft Security Compliance Toolkit (MSCT). The Microsoft Security Compliance Toolkit is there to help organizations provide recommended security configurations across their Microsoft-based systems by providing helpful resources to ensure a high standard when it comes to maintaining security posture. 
 
 ![img](https://i.imgur.com/Wz4mOq2.png)
+
+# Conclusion
+
+By implementing these various security measures, you can help mitigate unauthorized access to your domain. This can be done by ensuring secure authentication methods, such as multi-factor authentication, to bolster user verification. Also, incorporating secure group policies to enforce strict access controls and limit user privileges to the bare minimum is a simple yet effective way of maintaining a secure domain. To prevent unauthorized access via Remote Desktop Protocol (RDP), you can enforce the use of secure protocols and restrict RDP access to trusted IP addresses or VPN connections only. Finally, leveraging the Microsoft Security Compliance Toolkit (MSCT) is an excellent resource that can help organizations maintain compliance and protect against various cyber threats.
+
+
+
 
 
 
