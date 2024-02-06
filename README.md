@@ -6,12 +6,13 @@ Active Directory is a directory service from Microsoft that runs on Windows Serv
 
 # Objectives 
 
-By the end of this lab, we will have covered the following: 
+I will be hardening Active Director on a domain controller I have set up on a virtual machine. By the end of this lab, we will have covered the following: 
 
 - Secure authentication methods
 - Host security using group policy
 - Implementing Least Privilege
 - Knowing common Active Directory attacks
+- Configuring a Microsoft compliance toolkit
 - Recovery Plans
 
 # LAN Manager Hash 
@@ -65,6 +66,14 @@ When it comes to assigning roles within your organization, enforcing the princip
 - Database Access Control: Mary, who works in the creative department, is curious about learning SQL in her downtime and decides to open and play around with Microsoft Management Studio during her downtime. The software is already installed on her desktop but when she goes to look through the databases, she is not able to. Databases house sensitive information and because Mary's role does not require her to deal with sensitive information, her access to the company databases is restricted. 
 
 As a systems administrator, the right accounts must be properly set up and given the appropriate permissions. Conducting an audit for accounts regularly is also crucial in making sure all accounts have the right access permissions. 
+
+# Microsoft Security Compliance Toolkit (MSCT)  
+
+To help give organizations an idea of how their domain-level policies should look, Microsoft created a tool called Microsoft Security Compliance Toolkit (MSCT). The Microsoft Security Compliance Toolkit is there to help organizations provide recommended security configurations across their Microsoft-based systems by providing helpful resources to ensure a high standard when it comes to maintaining security posture. 
+
+![img](https://i.imgur.com/Wz4mOq2.png)
+
+
 
 
 
